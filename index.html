@@ -3,42 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .container {
-      text-align: center;
-      background: white;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #333;
-    }
-
-    p {
-      color: #777;
-      font-size: 1.2rem;
-    }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hello World</title>
+  <link rel="stylesheet" href="screen.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Hello World!</h1>
-    <p>Welcome to my first styled webpage.</p>
-  </div>
+  <main>
+    <h1>HelloWorld</h1>
+
+    <div class="masthead">
+      <img src="images/mac.jpg" alt="Old Macintosh computer" />
+    </div>
+
+    <div class="details">
+      <section>
+        <h2>History</h2>
+        <p>
+          Test programs have always existed in software development, but the tradition of using "Hello, World!" as a test message was influenced by an example program in the 1978 book <em>The C Programming Language</em>. The example was taken from a 1974 Bell Laboratories internal memorandum by Brian Kernighan, one of the co-creators of the Unix operating system.
+        </p>
+      </section>
+
+      <section class="with-code">
+        <div class="code-copy">
+          <h2>Example</h2>
+          <p>Here is a JavaScript example:</p>
+        </div>
+        <div class="code-html">
+          <pre><code>
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;script&gt;
+      alert('Hello, world!');
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
+
